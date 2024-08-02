@@ -1,7 +1,9 @@
-/*Fibonacci Series
+/*
+Fibonacci Series
 Fibonacci series is a special type of series in which the next term is the sum of the
 previous two terms. For example, if 0 and 1 are the two previous terms in a series, then
-the next term will be 1(0+1). */
+the next term will be 1(0+1).
+ */
 package Logical_Programs;
 import java.util.*;
 public class fibonacci_series {
@@ -23,9 +25,7 @@ public class fibonacci_series {
         int a = 0;
         int b = 1;
         for(int i=1;i<=n;i++){
-            // if(i==0 || i==1){
-            //     System.out.print(i+ " ");
-            // }
+
             System.out.print(a + " ");
             int c = a + b;
             //System.out.print(c + " ");
